@@ -1,0 +1,51 @@
+
+
+	html, body{
+		background: url(background__img.jpeg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 3rem;
+		color: #618fd3;
+		text-shadow: 1px 1px 4px black;
+	}
+
+	.btn{
+		font-weight: 700;
+		border-radius: 300px;
+		text-transform: uppercase;
+	}
+
+	
+	.container {
+		background-color: rgb(0,0,0, 0.2);
+	}
+
+	.btn-primary {
+		background-color: darkorange;
+		border-color: darkorange;
+		box-shadow: 1px 1px 4px black;
+	}
+
+	.btn-primary:hover {
+		background-color: black;
+		border-color: darkorange;
+		border-width: 3px;
+		box-shadow: 1px 1px 4px black;
+	}
+
+	.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+		background-color: black !important;
+	}
+
+	.btn-explore{
+		padding: 1rem 2rem;
+		width: 300px;
+	}
+
